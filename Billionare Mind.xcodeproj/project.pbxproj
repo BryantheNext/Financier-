@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1264182B979DD800EBB8C8 /* Billionare_MindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1264172B979DD800EBB8C8 /* Billionare_MindApp.swift */; };
+		3C12641C2B979DDB00EBB8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C12641B2B979DDB00EBB8C8 /* Assets.xcassets */; };
+		3C12641F2B979DDB00EBB8C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C12641E2B979DDB00EBB8C8 /* Preview Assets.xcassets */; };
+		3C1264292B979DDB00EBB8C8 /* Billionare_MindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1264282B979DDB00EBB8C8 /* Billionare_MindTests.swift */; };
+		3C1264332B979DDB00EBB8C8 /* Billionare_MindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1264322B979DDB00EBB8C8 /* Billionare_MindUITests.swift */; };
+		3C1264352B979DDB00EBB8C8 /* Billionare_MindUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1264342B979DDB00EBB8C8 /* Billionare_MindUITestsLaunchTests.swift */; };
+		3C3CD4D72BD0233A00C2D119 /* CalculatorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CD4D62BD0233A00C2D119 /* CalculatorScreen.swift */; };
+		3C3CD4DB2BD0255300C2D119 /* FinnanceLessonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CD4DA2BD0255300C2D119 /* FinnanceLessonScreen.swift */; };
+		3C3CD4DF2BD0265E00C2D119 /* EmailSettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CD4DE2BD0265E00C2D119 /* EmailSettingsScreen.swift */; };
+		3C3CD4E32BD027A600C2D119 /* PasswordSettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CD4E22BD027A600C2D119 /* PasswordSettingScreen.swift */; };
+		3C3CD4E52BD0384000C2D119 /* NotificationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3CD4E42BD0384000C2D119 /* NotificationScreen.swift */; };
+		3C66B95A2BCEDC7C00A7CC57 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B9592BCEDC7C00A7CC57 /* LoginScreen.swift */; };
+		3C66B95C2BCEDCC100A7CC57 /* SignupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B95B2BCEDCC100A7CC57 /* SignupScreen.swift */; };
+		3C66B95E2BCEDD5F00A7CC57 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B95D2BCEDD5F00A7CC57 /* OpeningScreen.swift */; };
+		3C66B9602BCEDDD200A7CC57 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B95F2BCEDDD200A7CC57 /* WelcomeScreen.swift */; };
+		3C66B9692BCEDF8E00A7CC57 /* CreditCardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B9682BCEDF8E00A7CC57 /* CreditCardScreen.swift */; };
+		3C66B96C2BCEE16300A7CC57 /* SignedInMainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B96B2BCEE16300A7CC57 /* SignedInMainScreen.swift */; };
+		3C66B9702BCEE3CC00A7CC57 /* AppFunctionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B96F2BCEE3CC00A7CC57 /* AppFunctionScreen.swift */; };
+		3C66B9742BCEE4B600A7CC57 /* statsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B9732BCEE4B600A7CC57 /* statsScreen.swift */; };
+		3C66B9762BCEE4F300A7CC57 /* settingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B9752BCEE4F300A7CC57 /* settingsScreen.swift */; };
+		3C66B9802BCEE8EE00A7CC57 /* SafariExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B97F2BCEE8ED00A7CC57 /* SafariExtension.swift */; };
+		3C66B9852BCEEF1300A7CC57 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66B9842BCEEF1300A7CC57 /* LoadingScreen.swift */; };
+		3C7427682BF270ED00FDA46C /* settingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7427672BF270ED00FDA46C /* settingScreen.swift */; };
+		3C74276B2BF2AC1500FDA46C /* threeCategoryBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74276A2BF2AC1500FDA46C /* threeCategoryBudget.swift */; };
+		3C74276D2BF2C06300FDA46C /* zeroBasedBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74276C2BF2C06300FDA46C /* zeroBasedBudget.swift */; };
+		3C74276F2BF2DF6500FDA46C /* AppFunctionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C74276E2BF2DF6500FDA46C /* AppFunctionsScreen.swift */; };
+		3C7427712BF2E3F500FDA46C /* SignScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7427702BF2E3F500FDA46C /* SignScreen.swift */; };
+		3C7427A92BF2FB2A00FDA46C /* CurrencyConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7427A82BF2FB2A00FDA46C /* CurrencyConversion.swift */; };
+		3C7427AB2BF30D2B00FDA46C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7427AA2BF30D2B00FDA46C /* Utils.swift */; };
+		3CFC8C872BAC9A6F0060F219 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC8C862BAC9A6F0060F219 /* Information.swift */; };
+		3CFC8C892BAC9A910060F219 /* FullApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC8C882BAC9A910060F219 /* FullApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1264252B979DDB00EBB8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C12640C2B979DD800EBB8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1264132B979DD800EBB8C8;
+			remoteInfo = "Billionare Mind";
+		};
+		3C12642F2B979DDB00EBB8C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C12640C2B979DD800EBB8C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1264132B979DD800EBB8C8;
+			remoteInfo = "Billionare Mind";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C1264142B979DD800EBB8C8 /* Billionare Mind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billionare Mind.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1264172B979DD800EBB8C8 /* Billionare_MindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billionare_MindApp.swift; sourceTree = "<group>"; };
+		3C12641B2B979DDB00EBB8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C12641E2B979DDB00EBB8C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C1264242B979DDB00EBB8C8 /* Billionare MindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billionare MindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1264282B979DDB00EBB8C8 /* Billionare_MindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billionare_MindTests.swift; sourceTree = "<group>"; };
+		3C12642E2B979DDB00EBB8C8 /* Billionare MindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billionare MindUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1264322B979DDB00EBB8C8 /* Billionare_MindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billionare_MindUITests.swift; sourceTree = "<group>"; };
+		3C1264342B979DDB00EBB8C8 /* Billionare_MindUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Billionare_MindUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C3CD4D62BD0233A00C2D119 /* CalculatorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreen.swift; sourceTree = "<group>"; };
+		3C3CD4DA2BD0255300C2D119 /* FinnanceLessonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnanceLessonScreen.swift; sourceTree = "<group>"; };
+		3C3CD4DE2BD0265E00C2D119 /* EmailSettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSettingsScreen.swift; sourceTree = "<group>"; };
+		3C3CD4E22BD027A600C2D119 /* PasswordSettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSettingScreen.swift; sourceTree = "<group>"; };
+		3C3CD4E42BD0384000C2D119 /* NotificationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationScreen.swift; sourceTree = "<group>"; };
+		3C66B9592BCEDC7C00A7CC57 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		3C66B95B2BCEDCC100A7CC57 /* SignupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreen.swift; sourceTree = "<group>"; };
+		3C66B95D2BCEDD5F00A7CC57 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
+		3C66B95F2BCEDDD200A7CC57 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		3C66B9682BCEDF8E00A7CC57 /* CreditCardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardScreen.swift; sourceTree = "<group>"; };
+		3C66B96B2BCEE16300A7CC57 /* SignedInMainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInMainScreen.swift; sourceTree = "<group>"; };
+		3C66B96F2BCEE3CC00A7CC57 /* AppFunctionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFunctionScreen.swift; sourceTree = "<group>"; };
+		3C66B9732BCEE4B600A7CC57 /* statsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsScreen.swift; sourceTree = "<group>"; };
+		3C66B9752BCEE4F300A7CC57 /* settingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsScreen.swift; sourceTree = "<group>"; };
+		3C66B97F2BCEE8ED00A7CC57 /* SafariExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtension.swift; sourceTree = "<group>"; };
+		3C66B9842BCEEF1300A7CC57 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		3C7427672BF270ED00FDA46C /* settingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingScreen.swift; sourceTree = "<group>"; };
+		3C74276A2BF2AC1500FDA46C /* threeCategoryBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threeCategoryBudget.swift; sourceTree = "<group>"; };
+		3C74276C2BF2C06300FDA46C /* zeroBasedBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zeroBasedBudget.swift; sourceTree = "<group>"; };
+		3C74276E2BF2DF6500FDA46C /* AppFunctionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFunctionsScreen.swift; sourceTree = "<group>"; };
+		3C7427702BF2E3F500FDA46C /* SignScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignScreen.swift; sourceTree = "<group>"; };
+		3C7427A82BF2FB2A00FDA46C /* CurrencyConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversion.swift; sourceTree = "<group>"; };
+		3C7427AA2BF30D2B00FDA46C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3CFC8C862BAC9A6F0060F219 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		3CFC8C882BAC9A910060F219 /* FullApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1264112B979DD800EBB8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1264212B979DDB00EBB8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12642B2B979DDB00EBB8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C12640B2B979DD800EBB8C8 = {
+			isa = PBXGroup;
+			children = (
+				3C1264162B979DD800EBB8C8 /* Billionare Mind */,
+				3C1264272B979DDB00EBB8C8 /* Billionare MindTests */,
+				3C1264312B979DDB00EBB8C8 /* Billionare MindUITests */,
+				3C1264152B979DD800EBB8C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1264152B979DD800EBB8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1264142B979DD800EBB8C8 /* Billionare Mind.app */,
+				3C1264242B979DDB00EBB8C8 /* Billionare MindTests.xctest */,
+				3C12642E2B979DDB00EBB8C8 /* Billionare MindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1264162B979DD800EBB8C8 /* Billionare Mind */ = {
+			isa = PBXGroup;
+			children = (
+				3C1264172B979DD800EBB8C8 /* Billionare_MindApp.swift */,
+				3C66B9582BCEDC4A00A7CC57 /* StartingScreens */,
+				3C66B97B2BCEE6E500A7CC57 /* (Spaces) */,
+				3C66B9662BCEDF0300A7CC57 /* FunctionsScreens */,
+				3C66B97E2BCEE8D200A7CC57 /* ReusedCode */,
+				3CFC8C882BAC9A910060F219 /* FullApp.swift */,
+				3CFC8C862BAC9A6F0060F219 /* Information.swift */,
+				3C12641B2B979DDB00EBB8C8 /* Assets.xcassets */,
+				3C12641D2B979DDB00EBB8C8 /* Preview Content */,
+			);
+			path = "Billionare Mind";
+			sourceTree = "<group>";
+		};
+		3C12641D2B979DDB00EBB8C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C12641E2B979DDB00EBB8C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C1264272B979DDB00EBB8C8 /* Billionare MindTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1264282B979DDB00EBB8C8 /* Billionare_MindTests.swift */,
+			);
+			path = "Billionare MindTests";
+			sourceTree = "<group>";
+		};
+		3C1264312B979DDB00EBB8C8 /* Billionare MindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1264322B979DDB00EBB8C8 /* Billionare_MindUITests.swift */,
+				3C1264342B979DDB00EBB8C8 /* Billionare_MindUITestsLaunchTests.swift */,
+			);
+			path = "Billionare MindUITests";
+			sourceTree = "<group>";
+		};
+		3C3CD4D32BD0223600C2D119 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CD4DA2BD0255300C2D119 /* FinnanceLessonScreen.swift */,
+				3C74276A2BF2AC1500FDA46C /* threeCategoryBudget.swift */,
+				3C74276C2BF2C06300FDA46C /* zeroBasedBudget.swift */,
+				3C3CD4D62BD0233A00C2D119 /* CalculatorScreen.swift */,
+				3C66B9682BCEDF8E00A7CC57 /* CreditCardScreen.swift */,
+				3C7427A82BF2FB2A00FDA46C /* CurrencyConversion.swift */,
+				3C7427AA2BF30D2B00FDA46C /* Utils.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3C3CD4DC2BD0260F00C2D119 /* MainSettingCodeFile */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B9752BCEE4F300A7CC57 /* settingsScreen.swift */,
+				3C7427672BF270ED00FDA46C /* settingScreen.swift */,
+			);
+			path = MainSettingCodeFile;
+			sourceTree = "<group>";
+		};
+		3C3CD4DD2BD0262B00C2D119 /* SettingServices */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CD4DE2BD0265E00C2D119 /* EmailSettingsScreen.swift */,
+				3C3CD4E22BD027A600C2D119 /* PasswordSettingScreen.swift */,
+				3C3CD4E42BD0384000C2D119 /* NotificationScreen.swift */,
+			);
+			path = SettingServices;
+			sourceTree = "<group>";
+		};
+		3C3CD4E02BD0272B00C2D119 /* MainSignedScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B9842BCEEF1300A7CC57 /* LoadingScreen.swift */,
+				3C66B96B2BCEE16300A7CC57 /* SignedInMainScreen.swift */,
+				3C7427702BF2E3F500FDA46C /* SignScreen.swift */,
+			);
+			path = MainSignedScreen;
+			sourceTree = "<group>";
+		};
+		3C66B9582BCEDC4A00A7CC57 /* StartingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B96E2BCEE33C00A7CC57 /* OpeningScreens */,
+				3C66B97C2BCEE72E00A7CC57 /* (Space) */,
+				3C66B96D2BCEE30200A7CC57 /* SigningInScreens */,
+			);
+			path = StartingScreens;
+			sourceTree = "<group>";
+		};
+		3C66B9662BCEDF0300A7CC57 /* FunctionsScreens */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B9782BCEE60700A7CC57 /* FourMainSignInScreen */,
+				3C66B97D2BCEE78400A7CC57 /* (Spacer) */,
+			);
+			path = FunctionsScreens;
+			sourceTree = "<group>";
+		};
+		3C66B96D2BCEE30200A7CC57 /* SigningInScreens */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B9592BCEDC7C00A7CC57 /* LoginScreen.swift */,
+				3C66B95B2BCEDCC100A7CC57 /* SignupScreen.swift */,
+			);
+			path = SigningInScreens;
+			sourceTree = "<group>";
+		};
+		3C66B96E2BCEE33C00A7CC57 /* OpeningScreens */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B95D2BCEDD5F00A7CC57 /* OpeningScreen.swift */,
+				3C66B95F2BCEDDD200A7CC57 /* WelcomeScreen.swift */,
+			);
+			path = OpeningScreens;
+			sourceTree = "<group>";
+		};
+		3C66B9782BCEE60700A7CC57 /* FourMainSignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CD4E02BD0272B00C2D119 /* MainSignedScreen */,
+				3C66B9812BCEEA6A00A7CC57 /* AppFunctionScreensFolder */,
+				3C66B9732BCEE4B600A7CC57 /* statsScreen.swift */,
+				3C66B9832BCEEC7800A7CC57 /* SettingsFolder */,
+			);
+			path = FourMainSignInScreen;
+			sourceTree = "<group>";
+		};
+		3C66B97B2BCEE6E500A7CC57 /* (Spaces) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "(Spaces)";
+			sourceTree = "<group>";
+		};
+		3C66B97C2BCEE72E00A7CC57 /* (Space) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "(Space)";
+			sourceTree = "<group>";
+		};
+		3C66B97D2BCEE78400A7CC57 /* (Spacer) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "(Spacer)";
+			sourceTree = "<group>";
+		};
+		3C66B97E2BCEE8D200A7CC57 /* ReusedCode */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B97F2BCEE8ED00A7CC57 /* SafariExtension.swift */,
+			);
+			path = ReusedCode;
+			sourceTree = "<group>";
+		};
+		3C66B9812BCEEA6A00A7CC57 /* AppFunctionScreensFolder */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B9822BCEEAE400A7CC57 /* MainFunctionCodeFile */,
+				3C3CD4D32BD0223600C2D119 /* Services */,
+			);
+			path = AppFunctionScreensFolder;
+			sourceTree = "<group>";
+		};
+		3C66B9822BCEEAE400A7CC57 /* MainFunctionCodeFile */ = {
+			isa = PBXGroup;
+			children = (
+				3C66B96F2BCEE3CC00A7CC57 /* AppFunctionScreen.swift */,
+				3C74276E2BF2DF6500FDA46C /* AppFunctionsScreen.swift */,
+			);
+			path = MainFunctionCodeFile;
+			sourceTree = "<group>";
+		};
+		3C66B9832BCEEC7800A7CC57 /* SettingsFolder */ = {
+			isa = PBXGroup;
+			children = (
+				3C3CD4DC2BD0260F00C2D119 /* MainSettingCodeFile */,
+				3C3CD4DD2BD0262B00C2D119 /* SettingServices */,
+			);
+			path = SettingsFolder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1264132B979DD800EBB8C8 /* Billionare Mind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1264382B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare Mind" */;
+			buildPhases = (
+				3C1264102B979DD800EBB8C8 /* Sources */,
+				3C1264112B979DD800EBB8C8 /* Frameworks */,
+				3C1264122B979DD800EBB8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billionare Mind";
+			productName = "Billionare Mind";
+			productReference = 3C1264142B979DD800EBB8C8 /* Billionare Mind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C1264232B979DDB00EBB8C8 /* Billionare MindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C12643B2B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare MindTests" */;
+			buildPhases = (
+				3C1264202B979DDB00EBB8C8 /* Sources */,
+				3C1264212B979DDB00EBB8C8 /* Frameworks */,
+				3C1264222B979DDB00EBB8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1264262B979DDB00EBB8C8 /* PBXTargetDependency */,
+			);
+			name = "Billionare MindTests";
+			productName = "Billionare MindTests";
+			productReference = 3C1264242B979DDB00EBB8C8 /* Billionare MindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C12642D2B979DDB00EBB8C8 /* Billionare MindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C12643E2B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare MindUITests" */;
+			buildPhases = (
+				3C12642A2B979DDB00EBB8C8 /* Sources */,
+				3C12642B2B979DDB00EBB8C8 /* Frameworks */,
+				3C12642C2B979DDB00EBB8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1264302B979DDB00EBB8C8 /* PBXTargetDependency */,
+			);
+			name = "Billionare MindUITests";
+			productName = "Billionare MindUITests";
+			productReference = 3C12642E2B979DDB00EBB8C8 /* Billionare MindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C12640C2B979DD800EBB8C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C1264132B979DD800EBB8C8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					3C1264232B979DDB00EBB8C8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3C1264132B979DD800EBB8C8;
+					};
+					3C12642D2B979DDB00EBB8C8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 3C1264132B979DD800EBB8C8;
+					};
+				};
+			};
+			buildConfigurationList = 3C12640F2B979DD800EBB8C8 /* Build configuration list for PBXProject "Billionare Mind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C12640B2B979DD800EBB8C8;
+			productRefGroup = 3C1264152B979DD800EBB8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1264132B979DD800EBB8C8 /* Billionare Mind */,
+				3C1264232B979DDB00EBB8C8 /* Billionare MindTests */,
+				3C12642D2B979DDB00EBB8C8 /* Billionare MindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1264122B979DD800EBB8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C12641F2B979DDB00EBB8C8 /* Preview Assets.xcassets in Resources */,
+				3C12641C2B979DDB00EBB8C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1264222B979DDB00EBB8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12642C2B979DDB00EBB8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1264102B979DD800EBB8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C66B9762BCEE4F300A7CC57 /* settingsScreen.swift in Sources */,
+				3C74276B2BF2AC1500FDA46C /* threeCategoryBudget.swift in Sources */,
+				3C66B96C2BCEE16300A7CC57 /* SignedInMainScreen.swift in Sources */,
+				3C66B95E2BCEDD5F00A7CC57 /* OpeningScreen.swift in Sources */,
+				3C3CD4E32BD027A600C2D119 /* PasswordSettingScreen.swift in Sources */,
+				3C7427AB2BF30D2B00FDA46C /* Utils.swift in Sources */,
+				3C3CD4E52BD0384000C2D119 /* NotificationScreen.swift in Sources */,
+				3C74276D2BF2C06300FDA46C /* zeroBasedBudget.swift in Sources */,
+				3C74276F2BF2DF6500FDA46C /* AppFunctionsScreen.swift in Sources */,
+				3CFC8C892BAC9A910060F219 /* FullApp.swift in Sources */,
+				3C66B9602BCEDDD200A7CC57 /* WelcomeScreen.swift in Sources */,
+				3C66B95C2BCEDCC100A7CC57 /* SignupScreen.swift in Sources */,
+				3C3CD4DF2BD0265E00C2D119 /* EmailSettingsScreen.swift in Sources */,
+				3C7427712BF2E3F500FDA46C /* SignScreen.swift in Sources */,
+				3C66B9702BCEE3CC00A7CC57 /* AppFunctionScreen.swift in Sources */,
+				3CFC8C872BAC9A6F0060F219 /* Information.swift in Sources */,
+				3C66B9852BCEEF1300A7CC57 /* LoadingScreen.swift in Sources */,
+				3C1264182B979DD800EBB8C8 /* Billionare_MindApp.swift in Sources */,
+				3C66B9742BCEE4B600A7CC57 /* statsScreen.swift in Sources */,
+				3C3CD4DB2BD0255300C2D119 /* FinnanceLessonScreen.swift in Sources */,
+				3C66B9692BCEDF8E00A7CC57 /* CreditCardScreen.swift in Sources */,
+				3C7427A92BF2FB2A00FDA46C /* CurrencyConversion.swift in Sources */,
+				3C7427682BF270ED00FDA46C /* settingScreen.swift in Sources */,
+				3C66B9802BCEE8EE00A7CC57 /* SafariExtension.swift in Sources */,
+				3C66B95A2BCEDC7C00A7CC57 /* LoginScreen.swift in Sources */,
+				3C3CD4D72BD0233A00C2D119 /* CalculatorScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1264202B979DDB00EBB8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1264292B979DDB00EBB8C8 /* Billionare_MindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12642A2B979DDB00EBB8C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1264332B979DDB00EBB8C8 /* Billionare_MindUITests.swift in Sources */,
+				3C1264352B979DDB00EBB8C8 /* Billionare_MindUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C1264262B979DDB00EBB8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1264132B979DD800EBB8C8 /* Billionare Mind */;
+			targetProxy = 3C1264252B979DDB00EBB8C8 /* PBXContainerItemProxy */;
+		};
+		3C1264302B979DDB00EBB8C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1264132B979DD800EBB8C8 /* Billionare Mind */;
+			targetProxy = 3C12642F2B979DDB00EBB8C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C1264362B979DDB00EBB8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C1264372B979DDB00EBB8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1264392B979DDB00EBB8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Billionare Mind/Preview Content\"";
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C12643A2B979DDB00EBB8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Billionare Mind/Preview Content\"";
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-Mind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C12643C2B979DDB00EBB8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billionare Mind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Billionare Mind";
+			};
+			name = Debug;
+		};
+		3C12643D2B979DDB00EBB8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-MindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billionare Mind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Billionare Mind";
+			};
+			name = Release;
+		};
+		3C12643F2B979DDB00EBB8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-MindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billionare Mind";
+			};
+			name = Debug;
+		};
+		3C1264402B979DDB00EBB8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DZKFDB97NJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bryan-Leos.Billionare-MindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Billionare Mind";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C12640F2B979DD800EBB8C8 /* Build configuration list for PBXProject "Billionare Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1264362B979DDB00EBB8C8 /* Debug */,
+				3C1264372B979DDB00EBB8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1264382B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare Mind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1264392B979DDB00EBB8C8 /* Debug */,
+				3C12643A2B979DDB00EBB8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C12643B2B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare MindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12643C2B979DDB00EBB8C8 /* Debug */,
+				3C12643D2B979DDB00EBB8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C12643E2B979DDB00EBB8C8 /* Build configuration list for PBXNativeTarget "Billionare MindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C12643F2B979DDB00EBB8C8 /* Debug */,
+				3C1264402B979DDB00EBB8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C12640C2B979DD800EBB8C8 /* Project object */;
+}
